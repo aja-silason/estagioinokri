@@ -1,0 +1,39 @@
+.conteinerAbout{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(75, 75, 75, 0.7);
+}
+.backgroundUs{
+    background-image: url(../Assets/background4.jpg);
+    background-size: cover;
+}
+.conteinerAbout div{
+    width: 300px;
+    margin: 10px;
+}
+.conteinerAbout div img{
+    width: 300px;
+    height: 400px;
+}
+.conteinerAbout div.about1 img{
+    margin-top: 150px;
+}
+.conteinerAbout div.aboutus{
+    color: #fff;
+    text-align: justify;
+    margin-top: 50px;
+}
+.conteinerAbout div.aboutus p{
+    margin-top: 50px;
+}
+.conteinerAbout div.aboutus button{
+    border: none;
+    color: rgb(0, 56, 82);
+    font-weight: bold;
+    background-color: rgb(223, 173, 7);
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 60px;
+}

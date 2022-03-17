@@ -1,0 +1,20 @@
+.conteinerParceiro{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    padding: 100px;
+}
+.conteinerParceiro .parceirosCima{
+    text-align: center;
+}
+.conteinerParceiro .parceirosCima p{
+    margin-top: 50px;
+}
+.conteinerParceiro .parceirosBaixo{
+    text-align: center;
+    margin-top: 50px;
+}
+.conteinerParceiro .parceirosBaixo img{
+    margin: 20px;
+}

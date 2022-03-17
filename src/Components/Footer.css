@@ -1,24 +1,34 @@
 .footer{
-    background-color: rgb(0, 56, 82);
+    background-color: rgba(0, 56, 82, 0.8);
     color: #fff;
     align-items: center;
-    border: 1px solid;
     justify-content: center;
-    flex-direction: row;
+}
+.corfundo{
+    background-image: url(../Assets/bacground.jpeg);
+    background-size: cover;
 }
 .footer .footerConteiner{
     list-style: none;
     vertical-align:middle;
-    margin: 50px 250px 50px 250px;
+    margin: 0px 250px 0px 250px;
 }
 .footer .footerConteiner div{
-    margin: 0 25px
+    margin: 35px 20px;
+}
+.footer .footerConteiner div{
+    width: 50%;
 }
 .footerConteiner div p{
     text-align: justify;
 }
 .footer div .copyright{
     text-align: center;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    height: 50px;
+    background-color: rgb(0, 56, 82);
+    border-top: 1px solid #fff;
 }
 .footer .lateral{
     display: flex;

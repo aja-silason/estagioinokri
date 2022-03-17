@@ -1,0 +1,20 @@
+.backgroundHistory{
+    background-image: url(../Assets/background3.jpg);
+    background-size: cover;
+}
+.conteinerHistory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 500px;
+    background-color: rgba(75, 75, 75, 0.7);
+}
+.conteinerHistory div{
+    width: 300px;
+}
+.conteinerHistory div p{
+    text-align: justify;
+    padding: 5px;
+    margin: 15px;
+}

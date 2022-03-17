@@ -1,0 +1,28 @@
+.conteinerFindUs{
+    display: flex;
+    background-color: aqua;
+    height: 50vh;
+}
+.conteinerFindUs .lateralEsq{
+    background-color: brown;
+    width: 60%;
+    background-image: url(../Assets/map.png);
+    background-size: cover;
+}
+.conteinerFindUs .lateralDir{
+    background-color: rgb(70, 68, 68);
+    width: 50%;
+}
+.conteinerFindUs .lateralDir{
+    color: #fff;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.conteinerFindUs .lateralDir p{
+    margin-left: 35px;
+}
+.conteinerFindUs .lateralDir img{    
+    position: absolute;
+
+}

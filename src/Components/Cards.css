@@ -1,0 +1,54 @@
+.conteinerCards{
+    background-color: rgb(39, 38, 38);
+    height: 70vh;
+}
+.barraAmarela{
+   /* background-color: rgb(223, 173, 7);
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+    position: absolute;
+    transform: rotate(-4deg); */
+}
+.conteinerCards .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.conteinerCards .cards .cardEsq{
+    background-color: #fff;
+    height: 350px;
+    width: 25%;
+    box-shadow: 1px 1px 5px 2px #000;
+}
+.conteinerCards .cards .cardEsq div{
+    align-items: center;
+    justify-content: center;
+}
+.conteinerCards .cards .cardCentro{
+    background-color: #fff;
+    height: 450px;
+    width: 30%;
+    box-shadow: 1px 1px 5px 1px #000;
+}
+.conteinerCards .cards .cardCentro img{
+    width: 100%;
+    height: 100%;
+}
+.conteinerCards .cards .cardDir{
+    background-color: #fff;
+    height: 350px;
+    width: 25%;
+}
+
+.conteinerCards .cards h1{
+    color: rgb(11, 104, 180);
+    text-align: justify;
+    padding: 10px 0px 0px 50px;
+}
+.conteinerCards .cards p{
+    color: rgb(11, 104, 180);
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+}
